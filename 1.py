@@ -22,13 +22,13 @@ except Exception as e:
     print(f"Camera Error: {e}")
 
 # Thinkspeak setup
-THINGSPEAK_API_KEY = '82IUHYX3J93870M5'
-THINGSPEAK_URL = 'https://api.thingspeak.com/update?api_key=82IUHYX3J93870M5&field1=0'
+THINGSPEAK_API_KEY = 
+THINGSPEAK_URL = 
 
 # Telegram setup
-TELEGRAM_BOT_TOKEN = '7817255218:AAE3yKo202jecA-DUkGM-XUS3J6P7ad4_gQ'
-TELEGRAM_CHAT_ID = '5145469528'
-TELEGRAM_URL = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage'
+TELEGRAM_BOT_TOKEN = 
+TELEGRAM_CHAT_ID = 
+TELEGRAM_URL = 
 
 # GPIO setup
 TRIG = 25
@@ -259,3 +259,4 @@ quit_button.pack(pady=20)
 root.after(1000, update_reading)
 root.mainloop()
 GPIO.cleanup()
+
